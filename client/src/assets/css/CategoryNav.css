@@ -1,0 +1,109 @@
+
+/*.category-buttons {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    text-align: center;*/
+/*    background-color: var(--neutral-color);*/
+/*}*/
+
+/*.button.selected-category-button {*/
+/*    background-color: var(--primary-color);*/
+/*}*/
+
+/*.button.unselected-category-button,*/
+/*.button.unselected-category-button:visited {*/
+/*    background-color: var(--neutral-color);*/
+/*}*/
+
+/*.button.unselected-category-button:hover,*/
+/*.button.unselected-category-button:active {*/
+/*    background-color: var(--primary-color);*/
+/*}*/
+/*.selected {*/
+/*    background-color: red; !* Change this to the desired highlight color *!*/
+/*}*/
+.category-body-first-section{
+    background: linear-gradient(45deg,#FFFFFF 30%, #9adce2 73%, #777777 100%);
+    border: 2px solid #777777;
+    width: 250px;
+
+    height: 500px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    border-radius: 10px;
+    /* box-shadow: 15px 23px 31px #888888; */
+    margin-left: 5em;
+
+
+}
+.category-side-nav-diff{
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    color: #067978;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Inknut Antiqua';
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 0px;
+    margin-top: 32px;
+
+}
+
+.category-side-nav{
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    background-color: #067978;
+    /*color: white;*/
+    font-size: 18px;
+    font-family: 'Inknut Antiqua';
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 0px;
+    margin-top: 32px;
+    font-weight: bold;
+    color: white; /* Default text color */
+    transition: background-color 0.3s ease-in-out; /* Add transition for smoother hover effect */
+
+
+}
+/*button a {*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+.category-link{
+    text-decoration: none;
+    color:inherit;
+
+}
+
+
+.category-side-nav:hover{
+    background-color: rgba(255, 255, 255, 0.211);
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    color: #067978!important;
+    cursor: pointer;
+    border: 2px solid;
+}
+.category-link:hover{
+    color: #067978 !important;
+}
+/*.selected {*/
+/*    background-color: white;*/
+/*    color:red;*/
+/*    border-radius: 6px;*/
+
+/*}*/
+.category-side-nav.selected {
+    border: 2px solid #067978; /* Change this to the desired border color */
+
+    background-color: white; /* Change this to the desired background color */
+    color: #067978;
+}
+.selected-link {
+    color: #067978; /* Change this to the desired color for the selected link */
+}

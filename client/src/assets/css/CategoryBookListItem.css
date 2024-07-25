@@ -1,0 +1,136 @@
+
+.read-now {
+    position: absolute;
+    background-color:red;
+    color: white;
+    border-radius: 50%;
+    margin-left: 85px;
+    margin-top: -8px;
+    width: 60px;
+    height: 40px;
+    border: none;
+
+}
+.read-now:hover{
+    cursor: pointer;
+}
+.category-body-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    width: 415px;
+    height: 270px;
+    margin-top: 10px;
+    background: linear-gradient(45deg,#FFFFFF 50%, #9adce2 73%, #777777 100%);
+    border: 2px solid #777777;
+    margin-left: 20px;
+    /*overflow: hidden;*/
+
+
+}
+@media (max-width: 600px) { /* Adjust breakpoint as needed */
+    .category-body-card {
+        flex-direction: column; /* Stacks items vertically on smaller screens */
+    }
+}
+
+.category-card-first-section{
+    width: 148px;
+    height: 230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 15px 23px 31px #888888;
+
+}
+
+.category-card-image{
+    width: 148px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.first-text-card{
+    font-size: 20px;
+    font-family: 'Inknut Antiqua';
+    padding-left: 1px;
+    color: black;
+    padding-top: 20px;
+    height: 55px;
+    margin: 0px;
+}
+.second-text-card{
+    font-family: 'Italianno';
+    font-size: 28px;
+    padding-left: 1px;
+    padding-top: 0px;
+    margin: 0px;
+
+}
+.third-text-card{
+    font-size: 30px;
+    font-family: 'Bellota Text';
+    color: black;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.add-to-cart-button{
+    width: 160px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    font-family: 'Joti One';
+    margin-top: 40px;
+    margin-left: 1px;
+
+}
+.add-to-cart-button:hover{
+    cursor: pointer;
+    animation: bubble 0.2s ease-out;
+}
+.read-now {
+    position: absolute;
+    background-color:red;
+    color: white;
+    border-radius: 50%;
+    margin-left: 85px;
+    margin-top: -8px;
+    width: 60px;
+    height: 40px;
+    border: none;
+
+}
+.read-now:hover{
+    cursor: pointer;
+}
+.cart-number {
+    position: absolute;
+    background-color:white;
+    color: #067978;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -11px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+

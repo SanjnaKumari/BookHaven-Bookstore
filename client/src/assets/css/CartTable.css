@@ -1,0 +1,304 @@
+.cart-table {
+    display: grid;
+    grid-template-columns: max-content minmax(10em, 20em) repeat(3, max-content);
+    row-gap: 1em;
+    width: fit-content;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: thin;
+    border-color: #067978;
+    background: white;
+    color: #067978;
+}
+
+/*ul {*/
+/*   display: contents;*/
+
+/*}*/
+.list{
+    display: contents;
+        background-color: #067978;
+}
+
+ul>li {
+    display: contents;
+    /*color: #067978;*/
+    /*font-weight: bold;*/
+    /*font-family: 'Joti One', serif;*/
+    /*font-size: 20px;*/
+}
+.list-heading{
+    color: #067978;
+    font-weight: bold;
+    font-family: 'Joti One', serif;
+    font-size: 20px;
+}
+
+.table-heading {
+    background-color: #067978;
+    /*color: white;*/
+    color: white;
+    font-weight: bold;
+}
+
+.table-heading>* {
+    background-color: #067978;
+    padding: 0.5em;
+}
+
+.heading-book {
+    grid-column: 1 / 3;
+    text-align: center;
+
+}
+
+.heading-price {
+    grid-column: 3 / 4;
+    text-align: center;
+}
+
+.heading-quantity {
+    grid-column: 4 / 5;
+    text-align: center;
+}
+
+.heading-subtotal {
+    text-align: center;
+    grid-column: 5 / -1;
+}
+
+/*.square {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/
+
+/*.wide-rect {*/
+/*    width: 125px;*/
+/*    height: 100px;*/
+/*}*/
+
+.cart-book-price {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cart-book-quantity {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cart-book-subtotal {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.line-sep {
+    display: block;
+    height: 1px;
+    background-color: #067978;
+    grid-column: 1 / -1;
+}
+
+
+.icon-button {
+    border: none;
+    cursor: pointer;
+}
+
+.inc-button {
+    font-size: 1.125rem;
+    /*color: var(--primary-color);*/
+    color: #067978;
+    margin-right: 0.25em;
+    background-color: white;
+}
+
+.inc-button:hover {
+    /*color: var(--primary-color-dark);*/
+    color: #32A9A8;
+    background-color: white;
+    /*background-color: #32A9A8;*/
+}
+
+.dec-button {
+    font-size: 1.125rem;
+    color: grey;
+    background-color: white;
+}
+
+.dec-button:hover {
+    color: silver;
+    background-color: white;
+}
+
+/*.dec-arrow-button,*/
+/*.inc-arrow-button {*/
+/*    font-size: 1rem;*/
+/*    !*color: var(--primary-color);*!*/
+/*    color: #067978;*/
+/*}*/
+
+/*.dec-arrow-button:hover,*/
+/*.inc-arrow-button:hover {*/
+/*    !*color: var(--primary-color-dark);*!*/
+/*    color: #067978;*/
+/*}*/
+
+/*input[type="number"] {*/
+/*    width: 4em;*/
+/*}*/
+
+/*select {*/
+/*    !*background-color: var(--primary-color);*!*/
+/*    background-color: #32A9A8;*/
+/*    color: white;*/
+/*    !*border: 2px solid var(--primary-color-dark);*!*/
+/*    border: 2px solid #067978;*/
+/*    border-radius: 3px;*/
+/*}*/
+.cart-book-title{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.cart-book-image {
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    /*width: 68px;*/
+    /*height: 99px;*/
+}
+.cart-book-image-size {
+    width: 100px;
+    height: 130px;
+}
+
+
+.center-order {
+    align-items: center;
+}
+
+.pill-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 200px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+.trash {
+    width: max-content;
+    margin: auto;
+    margin-left: 15px;
+}
+.trash:hover{
+    cursor: pointer;
+}
+
+
+.blue-border-white-bg{
+    color: #067978;
+    background-color: white;
+    border: 2px solid #067978;
+}
+
+.first-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: white;
+    background-color: #067978;
+    border: 1px solid #32A9A8;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Joti One', serif;
+    margin-left: 100px;
+
+}
+.first-button-clear{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: white;
+    background-color: #067978;
+    border: 1px solid #32A9A8;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Joti One', serif;
+
+}
+
+.second-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Joti One', serif;
+
+    background-color: red;
+    color: white;
+    margin-right: 100px;
+}
+
+
+
+.second-button:hover {
+    animation: bubble 0.3s ease-out;
+    cursor: pointer;
+
+}
+.first-button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.first-button-clear:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+@keyframes bubble {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.clear:hover{
+    cursor: pointer;
+}
+.clear{
+    font-size: 15px;
+}
+.right-text {
+    text-align: right;
+}
+.left-text {
+    text-align: left;
+}
+.cart-buttons{
+    display: flex;
+    justify-content: space-around;
+   row-gap: 10px;
+}

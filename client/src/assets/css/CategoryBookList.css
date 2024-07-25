@@ -1,0 +1,23 @@
+
+.book-lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*padding: 1em;*/
+    /*gap: 1em;*/
+    padding:0px;
+
+}
+
+.category-body {
+    display: flex;
+    height: 612px;
+    /*height: 10%;*/
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: center;
+    gap: 5em;
+
+}
+
+

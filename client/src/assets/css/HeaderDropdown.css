@@ -1,0 +1,118 @@
+
+/*.header-dropdown {*/
+/*    position: relative;*/
+/*}*/
+
+/*.categories-button {*/
+/*    background-color: var(--primary-color-dark);*/
+/*    margin-top: 0.25em;*/
+/*}*/
+
+/*.header-dropdown ul {*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*    display: none;*/
+/*}*/
+
+/*.header-dropdown li {*/
+/*    padding: 0.25em 0.5em;*/
+/*}*/
+
+/*.header-dropdown a {*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.header-dropdown li:hover {*/
+/*    background: lightgray;*/
+/*}*/
+
+/*.header-dropdown:hover ul {*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    min-width: 8em;*/
+/*    z-index: 1;*/
+/*    cursor: pointer;*/
+/*}*/
+/* .categories-button{
+    appearance: none;
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius: 10px;
+    background-color: rgb(167,61,128);
+    color:white;
+    font-size:15px;
+    cursor: pointer;
+
+
+} */
+
+.categories{
+    position:relative;
+    display:inline-block;
+    cursor:pointer;
+
+}
+
+.categories-dropdown{
+    display:none;
+    position:absolute;
+    top:70%;
+    left:0;
+    background-color: white;
+    color: black;
+    border-radius:10px;
+    z-index:1;
+    cursor:pointer;
+    border: 1px solid;
+    width: 150px;
+    height: 220px;
+
+
+}
+
+.categories:hover .categories-dropdown{
+    display:block;
+    cursor: pointer;
+}
+
+.categories-list{
+    cursor:pointer;
+    /* transition:background-color 0.3s;
+    padding:8px;
+    color:white;  */
+    background-color: #067978;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 132px;
+    height: 32px;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.categories-list:hover{
+    background-color:white;
+   color: #067978;
+    border-radius:15px;
+    display:block;
+    border: 1px solid;
+
+    /* cursor: pointer; */
+
+}
+
+/*.category-link{*/
+/*    text-decoration: none;*/
+/*    */
+/*}*/
+/*.category-link:hover{*/
+/*    color: #067978;*/
+/*}*/
+

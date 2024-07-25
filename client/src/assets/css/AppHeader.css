@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+
+header {
+    background: var(--secondary-background-color);
+    display: flex;
+    padding: 0px;
+    gap: 1em;
+    background-color: #067978;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.first-section,.second-section,.third-section{
+    display:flex;
+    flex-direction:row;
+}
+.first-section{
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 30%;
+
+}
+.second-section{
+    padding-top: 45px;
+    margin-left: 40px;
+    /*padding-right: 45px;*/
+    width: 35%;
+
+}
+.third-section{
+    margin-left:50px ;
+    width: 30%;
+}
+
+.book-haven-logo{
+    width:110px;
+    height:80px;
+}
+.logo-text {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Allura', serif;
+}
+.search-bar {
+    /*padding: 0.5em;*/
+    width: 360px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border-color: #808080;
+    color: gray;
+}
+.search-icon{
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 12px;
+    color: gray;
+}
+
+/*@media (max-width: 600px) {*/
+/*    header {*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/
+
+.categories,.cart,.login{
+    margin-left: 5px;
+    margin-right:5px;
+}
+.categories,.login{
+    padding-top: 35px;
+}
+.cart{
+    padding-top: 27px;
+}
+.cart{
+    cursor: pointer;
+}
+
+.login-button{
+    background-color:#32A9A8;
+    color: white;
+    width: 166px;
+    height: 33px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    font-weight: bold;
+
+}
+.login-button:hover{
+    cursor: pointer;
+}
+
+.categories-button{
+    background-color:#32A9A8;
+    color: white;
+    width: 150px;
+    height: 33px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.categories-button:hover{
+    background-color: white;
+    color: #067978;
+}
+
+.second-section i {
+    position: absolute;
+}
+
+.cart-number {
+    position: absolute;
+    background-color:white;
+    color: #067978;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -11px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    display: flex;             /* Enables flexbox */
+    align-items: center;       /* Centers content vertically */
+    justify-content: center;
+    font-size: 15px;
+
+
+}

@@ -1,0 +1,139 @@
+
+/*.home-pages  {*/
+/*    display: flex;*/
+
+/*}*/
+
+/*.welcome-text {*/
+/*    width: 30em;*/
+/*    background-color: var(--neutral-color);*/
+/*    color: whitesmoke;*/
+/*    padding: 1rem;*/
+/*    margin-top: 1rem;*/
+/*}*/
+/*.flow-content > * + * {*/
+/*    margin-top: 1rem;*/
+/*}*/
+
+/*!**/
+/*  Giving various sections of your page this utility class*/
+/*  will ensure a nice padding around the contents.*/
+/**!*/
+/*.container {*/
+/*    padding: 2rem;*/
+/*}*/
+
+
+
+.home-body {
+    display: flex;
+    height: 612px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
+.home-body-first-section{
+    background-color: #067978;
+    width: 328px;
+    height: 526px;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 15px 23px 31px #888888;
+
+}
+.home-body-image-div{
+    width: 294px;
+    height: 440px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+.home-body-image{
+    width: 290px;
+    height: 436px;
+    /* padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px; */
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 10px;
+}
+.home-body-second-section{
+    width: 752px;
+    height: 400px;
+    margin-top: 106px;
+    margin-bottom: 106px;
+}
+.first-text,.second-text,.third-text,.fourth-text,.fifth-text,.sixth{
+
+    margin-bottom: 10px;
+}
+.first-text{
+    font-size: 60px;
+    font-family: 'Amatic SC';
+    padding-left: 60px;
+    color: #067978;
+    padding-top: 14px;
+}
+.second-text{
+    font-size: 30px;
+    font-family: 'Joti One';
+    padding-left: 60px;
+    color: black;
+
+}
+.third-text{
+    font-size: 40px;
+    font-family: 'Italianno';
+    padding-left: 60px;
+    color: black;
+}
+.fourth-text{
+    font-size: 30px;
+    /* font-family: 'Indie Flower'; */
+    font-family: 'Bellota Text';
+    padding-left: 60px;
+    color: red;
+}
+.fifth-text{
+    font-size: 25px;
+    font-family: 'Bellota Text';
+    padding-left: 60px;
+    color: black;
+}
+.sixth{
+    padding-top: 20px;
+}
+.shop-now-button{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    font-family: 'Joti One', serif;
+    margin-left:276px ;
+    margin-right: 276px;
+}
+.shop-now-button:hover{
+    cursor: pointer;
+    /*color: #777777;*/
+    animation: bubble 0.2s ease-out;
+}
+
